@@ -25,11 +25,11 @@ return array(
 /* 数据库设置 */
 'DB_TYPE'               => 'mysql',     // 数据库类型
 'DB_HOST'               => 'localhost', // 服务器地址
-'DB_NAME'               => 'wysc_mod',     // 如果网页出了问题，重新导入数据库即可。
+'DB_NAME'               => 'wysc_mod',  // 如果网页出了问题，重新导入数据库即可。
 'DB_USER'               => 'root',      // 用户名
-'DB_PWD'                => 'root',          // 密码
-'DB_PORT'               => '3306',        // 端口
-'DB_PREFIX'             => '',    // 数据库表前缀
+'DB_PWD'                => '',      // 密码
+'DB_PORT'               => '3306',      // 端口
+'DB_PREFIX'             => '',    		// 数据库表前缀
 'DB_FIELDTYPE_CHECK'    => false,       // 是否进行字段类型检查  数据库通常会自动处理必要的转换 参见手册14.2
 'DB_FIELDS_CACHE'       => true,        // 启用字段缓存，缓存数据表的 字段信息。表结构信息 参考手册 6.3  开发的时候可以考虑关闭。否则可能修改数据库后造成问题
 'DB_CHARSET'            => 'utf8',      // 数据库编码默认采用utf8,
@@ -44,8 +44,8 @@ return array(
 'DEFAULT_GROUP'         => 'Home',  // 默认分组，  /home-index-show-goodid-3.html   可以省略 home 
 'TMPL_PARSE_STRING'  =>array(       // 模板替换 常量定义的 增加或者修改 见手册 7.4 
 //'__APPURL__'=>'HTTP://127.0.0.1/wysc/',
-'__APPURL__'=>'/wysc_mod/',    
-'__SKIN__'=>'/wysc_mod/skins/',  //
+'__APPURL__'=>'/prj-sh/',    
+'__SKIN__'=>'/prj-sh/skins/',  //
 '__THEME__'=>'gray'  //默认easyui主题
 ),
 'PAGE_SIZE'=>15,                // 默认分页 数据条数

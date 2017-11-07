@@ -3,6 +3,7 @@
 class PublicAction extends Action {
 
     function login() {
+        //echo 2323232;exit;
         if ($_POST) {
             
             
